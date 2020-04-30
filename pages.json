@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			
+			}
+		},{
+			"path":"pages/news/index"
+		},{
+			"path":"pages/cart/index"
+		},{
+			"path":"pages/member/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "蜂购商城",
+		"navigationBarBackgroundColor": "#aa0000",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor":"#aa0000",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/icons/home.png",
+	        "selectedIconPath": "static/icons/selectedHome.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/news/index",
+	        "iconPath": "static/icons/class.png",
+	        "selectedIconPath": "static/icons/selectedClass.png",
+	        "text": "咨询"
+	    },{
+			"pagePath":"pages/cart/index",
+			"iconPath":"static/icons/cart.png",
+			"selectedIconPath":"static/icons/selectedCart.png",
+			"text":"购物车"
+		},{
+			"pagePath":"pages/member/index",
+			"iconPath":"static/icons/member.png",
+			"selectedIconPath":"static/icons/selectedMember.png",
+			"text":"会员"
+		}]
+	}
+}
